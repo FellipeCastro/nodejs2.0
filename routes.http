@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET http://localhost:3333/videos?search=01
 
 ### 
 
-PUT http://localhost:3333/videos/99d21638-b856-4872-a254-91711ca9d5dc
+PUT http://localhost:3333/videos/
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/99d21638-b856-4872-a254-91711ca9d5dc
+DELETE http://localhost:3333/videos/fd375843-dd79-4961-af94-a94335da22ff
